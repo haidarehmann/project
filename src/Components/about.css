@@ -1,9 +1,8 @@
 
-
 .about {
   position: relative;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 h3 {
@@ -19,6 +18,22 @@ h3 {
 
 }
 
+h1 {
+  font-size: 80px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  padding: 40px;
+  margin: -340px 50px 220px 585px;
+  display: flex;
+
+
+}
+
+.next-section {
+  position: relative;
+  height: 100px;
+}
 .circle-text {
   position: absolute;
   top: 355px;
@@ -53,10 +68,6 @@ h1 {
 
 }
 
-.next-section {
-  position: relative;
-  height: 100px;
-}
 
 .wrapper {
   width: 200px;
@@ -99,9 +110,9 @@ h1 {
   max-width: 710px;
   font-size: 12px;
   position: relative;
-  top: -259px;
+  top: -255px;
   line-height: 1.5;
-  margin-left: 650px;
+  margin-left: 625px;
   border-radius: 20px;
   text-align: center;
 }
@@ -137,7 +148,7 @@ h4 {
   max-width: 710px;
   font-size: 12px;
   position: relative;
-  top: -590px;
+  top: -586px;
   line-height: 1.5;
   margin-left: 1000px;
   border-radius: 20px;

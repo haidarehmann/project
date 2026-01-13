@@ -1,7 +1,7 @@
 
 .gallery {
   position: relative;
-  height: 450px;
+  height: 590px;
 }
 
 .gallery-img1 {
@@ -21,25 +21,25 @@
 .gallery-img2 {
   position: absolute;
   top: 90px;
-  left: 450px;
+  left: 490px;
 }
 
 .gallery-img2 img {
-    width: 520px;
-    height: 650px;
-    object-fit: cover;
-    border-radius: 15px;
+  width: 450px;
+  height: 560px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .gallery-img3 {
   position: absolute;
-  top: 510px;
+  top: 400px;
   right: 50px;
 }
 
 .gallery-img3 img {
   width: 350px;
-  height: 230px;
+  height: 250px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -50,32 +50,32 @@
   padding: 50px;
   margin: 20px auto;
   max-width: 410px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 50px;
   line-height: 1.5;
-  margin-left: -40px;
+  margin-left: -30px;
   font-family: 'Times New Roman', serif;
 }
 
 .para2 {
   color: white;
-text-align: justify;
-    padding: 10px;
-    height: 300px;
-    display: flex;
-    margin: 10px auto;
-    max-width: 350px;
-    font-size: 20px;
-    line-height: 1.5;
-    margin-top: -665px;
-    font-family: 'Times New Roman', serif;
+  text-align: justify;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  margin: 10px auto;
+  max-width: 350px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: -545px;
+  font-family: 'Times New Roman', serif;
 }
 
 .arrow-down {
   position: relative;
-  bottom: 490px;
-  left: 50%;
-  font-size: 70px;
+  bottom: 375px;
+  left: 65%;
+  font-size: 60px;
   transform: translateX(-50%);
   z-index: 999;
   color: rgba(146, 143, 143, 0.977);
@@ -84,9 +84,9 @@ text-align: justify;
 
 .arrow-up {
   position: relative;
-  top: 25px;
+  top: -90px;
   left: 55%;
-  font-size: 70px;
+  font-size: 60px;
   color: rgba(146, 143, 143, 0.977);
   transform: translateX(-50%);
   z-index: 999;
