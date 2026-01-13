@@ -1,0 +1,625 @@
+
+.quick {
+  position: relative;
+  height: 500px;
+  background-color: #1f2329;
+  margin-top: -1830px;
+}
+
+.info1 {
+  position: relative;
+  top: -0px;
+  left: -20px;
+  z-index: 1;
+}
+
+.info1 img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info2 {
+  position: relative;
+  top: -184px;
+  left: 220px;
+  z-index: 1;
+}
+
+.info2 img {
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info3 {
+  position: relative;
+  top: -368px;
+  z-index: 1;
+  left: 440px;
+}
+
+.info3 img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.instagram1 {
+  width: 85px;
+  height: 88px;
+  background-color: white;
+  color: grey;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 34px;
+  font-size: 35px;
+  left: 46%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+
+.info4 {
+  position: relative;
+  top: -552px;
+  left: 657px;
+  z-index: 1;
+}
+
+.info4 img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info5 {
+  position: relative;
+  top: -736px;
+  left: 890px;
+  z-index: 1;
+}
+
+.info5 img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info6 {
+  position: relative;
+  z-index: 1;
+  top: -920px;
+  left: 1145px;
+}
+
+.info6 img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.touch1 {
+  color: white;
+  margin-left: 55px;
+  margin-top: -885px;
+  font-size: 30px;
+}
+
+.sign1 {
+  position: absolute;
+  bottom: 193px;
+  left: 60px;
+}
+
+.sign1 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.adress {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 35px;
+  margin-top: -25px;
+  font-size: 15px;
+}
+
+.sign2 {
+  position: absolute;
+  bottom: 160px;
+  left: 64px;
+}
+
+.sign2 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.email1 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 35px;
+  margin-top: -25px;
+  font-size: 15px;
+}
+
+.sign3 {
+  position: absolute;
+  bottom: 127px;
+  left: 64px;
+}
+
+.sign3 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.call {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 35px;
+  margin-top: -25px;
+  font-size: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-right: 1175px;
+  position: relative;
+  top: 150px;
+}
+
+.facebook {
+  width: 35px;
+  height: 35px;
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.linkdin {
+  width: 35px;
+  height: 35px;
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.twitter {
+  width: 35px;
+  height: 35px;
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.instagram {
+  width: 35px;
+  height: 35px;
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+.touch2 {
+  position: absolute;
+  top: 215px;
+  left: 315px;
+  color: white;
+  font-size: 30px;
+}
+
+.sign4 {
+  position: absolute;
+  top: 290px;
+  left: 315px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+
+.sign4 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home1 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign5 {
+  position: absolute;
+  top: 320px;
+  left: 315px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign5 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home2 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign6 {
+  position: absolute;
+  top: 350px;
+  left: 315px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign6 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home3 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign7 {
+  position: absolute;
+  top: 380px;
+  left: 315px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign7 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home4 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign8 {
+  position: absolute;
+  top: 410px;
+  left: 315px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign8 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home5 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign9 {
+  position: absolute;
+  top: 439px;
+  left: 315px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign9 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home6 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+/**/
+
+.touch3 {
+  position: absolute;
+  top: 215px;
+  left: 545px;
+  color: white;
+  font-size: 30px;
+}
+
+.sign10 {
+  position: absolute;
+  top: 285px;
+  left: 530px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign10 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home7 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign11 {
+  position: absolute;
+  top: 313px;
+  left: 528px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign11 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home8 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign12 {
+  position: absolute;
+  top: 343px;
+  left: 525px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign12 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home9 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign13 {
+  position: absolute;
+  top: 374px;
+  left: 525px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign13 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home10 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign14 {
+  position: absolute;
+  top: 402px;
+  left: 525px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign14 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home11 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.sign15 {
+  position: absolute;
+  top: 435px;
+  left: 520px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.sign15 svg {
+  color: orangered;
+  font-size: 20px;
+}
+
+.home12 {
+  color: rgba(146, 143, 143, 0.977);
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.table {
+  height: 320px;
+  z-index: 1;
+  width: 400px;
+  padding: 35px;
+  margin-left: 865px;
+  text-align: center;
+  position: relative;
+  top: -110px;
+  background-color: black;
+}
+
+.total1 {
+  color: white;
+  margin-left: -53px;
+  margin-top: -150px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.total2 {
+  color: white;
+  margin-left: 55px;
+  margin-top: -280px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.total3 {
+  color: white;
+  margin-left: 17px;
+  margin-top: 25px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.form input {
+  width: 80%;
+  padding: 20px;
+  margin-top: 65px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+}
+
+.signBtn {
+  position: absolute;
+  right: 67px;
+  top: 219px;
+  height: 61px;
+  background: orangered;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mouse {
+  display: flex;
+  background-color: black;
+  padding: 5px;
+  height: 100px;
+  width: 435%;
+  margin-top: 36px;
+  margin-left: -910px;
+
+}
+
+.copy {
+  position: absolute;
+  bottom: -62px;
+  left: -555px;
+  font-size: 20px;
+}
+
+.copy svg {
+  color: white;
+  font-size: 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  padding-left: 200px;
+}
+
+.wire1 {
+  margin-left: -5px;
+  margin-top: -110px;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+
+.wire2 {
+  margin-left: 115px;
+  margin-top: -470px;
+  font-size: 10px;
+  white-space: nowrap;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.wire3 {
+  margin-left: 700px;
+  margin-top: -325px;
+  font-size: 20px;
+  white-space: nowrap;
+  color: white;
+  letter-spacing: 3px;
+}

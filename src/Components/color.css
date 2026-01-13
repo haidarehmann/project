@@ -1,0 +1,63 @@
+
+.tags {
+  background: #1f2329;
+  height: 270px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+  margin-top: -460px;
+  gap: 20px;
+  padding-left: 60px;
+}
+
+.years,
+.clients,
+.awards,
+.events {
+  background-color: black;
+  width: 85px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.years svg,
+.clients svg,
+.awards svg,
+.events svg {
+  color: orangered;
+  font-size: 28px;
+}
+
+.arrange1,
+.arrange2,
+.arrange3,
+.arrange4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Times New Roman", serif;
+  margin-right: 90px;
+}
+
+.tittle1,
+.tittle2,
+.tittle3,
+.tittle4 {
+  color: white;
+  font-size: 34px;
+  margin: 0;
+}
+
+.number1,
+.number2,
+.number3,
+.number4 {
+  color: #dcdcdc;
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 600;
+}

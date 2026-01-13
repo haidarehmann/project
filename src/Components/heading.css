@@ -1,0 +1,12 @@
+.heading-container {
+  color: rgba(146, 143, 143, 0.977);
+  font-family: 'Cormorant Garamond', serif;
+  padding-right: 70px;
+  margin: 30px;
+  text-align: center;
+  font-size: 65px;
+  position: relative;
+  top: 35px;
+  letter-spacing: 5px;
+  width: 100%;
+}

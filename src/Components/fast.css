@@ -1,0 +1,412 @@
+
+.meals {
+  position: relative;
+  width: 100%;
+  font-family: 'Times New Roman', serif;
+  padding-top: 430px;
+}
+
+.our {
+  color: orangered;
+  margin-left: 540px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.hands {
+  margin-left: 545px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: -285px;
+}
+
+.crafts {
+  margin-left: 620px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.dinner {
+  background-color: black;
+  padding: 5px 50px;
+  width: 340px;
+  margin: 50px auto;
+  margin-left: 600px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dinner-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.dinner-menu li {
+  color: white;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s, transform 0.3s;
+  padding: 8px 12px;
+}
+
+
+.dinner-menu li:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+
+.dinner-menu li.active {
+  color: orangered;
+  font-weight: bold;
+}
+
+
+.dinner-menu li.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: orangered;
+  bottom: -5px;
+  left: 0;
+  border-radius: 2px;
+}
+
+.chicken {
+  position: relative;
+  height: 450px;
+}
+
+.bbq1 {
+  position: absolute;
+  top: -5px;
+  left: -30px;
+}
+
+.bbq1 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch1 {
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bbq2 {
+  position: absolute;
+  top: -5px;
+  left: 323px;
+}
+
+.bbq2 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch2 {
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+
+.bbq3 {
+  position: absolute;
+  top: -5px;
+  left: 675px;
+}
+
+.bbq3 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch3 {
+  position: absolute;
+  bottom: 15px;
+  right: 85px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bbq4 {
+  position: absolute;
+  top: -5px;
+  left: 1005px;
+}
+
+.bbq4 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch4 {
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bbq5 {
+  position: absolute;
+  top: 275px;
+  left: -20px;
+}
+
+.bbq5 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch5 {
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bbq6 {
+  position: absolute;
+  top: 275px;
+  left: 335px;
+}
+
+.bbq6 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch6 {
+  position: absolute;
+  bottom: 15px;
+  right: 90px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bbq7 {
+  position: absolute;
+  top: 274px;
+  left: 658px;
+}
+
+.bbq7 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch7 {
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.bbq8 {
+  position: absolute;
+  top: 275px;
+  left: 1030px;
+}
+
+.bbq8 img {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.ch8 {
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  background-color: #1f2329;
+  color: orangered;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.meet {
+  position: relative;
+  width: 100%;
+  font-family: 'Times New Roman', serif;
+  padding-top: 260px;
+}
+
+.expert {
+  color: orangered;
+  margin-left: 490px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.chefs {
+  margin-left: 565px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: -285px;
+}
+
+.mid {
+  margin-left: 660px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.caps {
+  width: 200px;
+  height: 500px;
+  position: relative;
+}
+
+.cap1 img {
+  width: 370px;
+  margin-left: 80px;
+  top: 45px;
+  height: 440px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  border-top-left-radius: 270px;
+  border-bottom-left-radius: 40px;
+}
+
+.name1 {
+  position: absolute;
+  bottom: 14px;
+  left: 80px;
+  background: rgba(146, 143, 143, 0.977);
+  color: white;
+  padding: 20px;
+  width: 370px;
+  z-index: 5;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 40px;
+}
+
+.john1 {
+  font-size: 20px;
+  margin-left: 130px;
+}
+
+.skill1 {
+  font-size: 20px;
+  margin-left: 120px;
+}
+
+.cap2 img {
+  width: 370px;
+  margin-left: 520px;
+  top: 45px;
+  height: 440px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  border-top-left-radius: 270px;
+  border-bottom-left-radius: 40px;
+}
+
+.name2 {
+  position: absolute;
+  bottom: 14px;
+  left: 520px;
+  background: rgba(146, 143, 143, 0.977);
+  color: white;
+  padding: 20px;
+  width: 370px;
+  z-index: 5;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 40px;
+}
+
+.john2 {
+  font-size: 20px;
+  margin-left: 130px;
+}
+
+.skill2 {
+  font-size: 20px;
+  margin-left: 120px;
+}
+
+.cap3 img {
+  width: 370px;
+  margin-left: 960px;
+  top: 45px;
+  height: 440px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  border-top-left-radius: 270px;
+  border-bottom-left-radius: 40px;
+}
+
+.name3 {
+  position: absolute;
+  bottom: 14px;
+  left: 960px;
+  background: rgba(146, 143, 143, 0.977);
+  color: white;
+  padding: 20px;
+  width: 370px;
+  z-index: 5;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 40px;
+}
+
+.john3 {
+  font-size: 20px;
+  margin-left: 130px;
+}
+
+.skill3 {
+  font-size: 20px;
+  margin-left: 120px;
+}

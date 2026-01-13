@@ -1,0 +1,133 @@
+
+.say {
+  position: relative;
+  width: 100%;
+  background-color: #1f2329;
+  margin-top: 100px;
+  border-top-left-radius: 270px;
+  border-bottom-left-radius: 135px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 285px;
+  height: 700px;
+}
+
+.book {
+  width: 50%;
+  position: relative;
+}
+
+.book img {
+  width: 100%;
+  margin-left: -1px;
+  height: 700px;
+  object-fit: cover;
+  border-top-left-radius: 230px;
+  border-bottom-left-radius: 100px;
+}
+
+.reviews {
+  position: absolute;
+  top: 30px;
+  right: 360px;
+  color: orangered;
+  letter-spacing: 6px;
+  font-size: 18px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.honest1 {
+  position: absolute;
+  top: 370px;
+  right: 165px;
+  font-size: 60px;
+  color: rgb(227, 224, 224);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.honest2 {
+  position: absolute;
+  top: 445px;
+  right: 370px;
+  font-size: 60px;
+  color: rgb(227, 224, 224);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.time {
+  position: absolute;
+  right: 120px;
+  top: 215px;
+  width: 432px;
+  color: rgb(227, 224, 224);
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.quote {
+  color: orangered;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+.arrow1 {
+  width: 42px;
+  height: 42px;
+  background-color: orangered;
+  border-radius: 50%;
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: 60px;
+  font-size: 50px;
+  margin-left: 910px;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.arrow2 {
+  width: 42px;
+  height: 42px;
+  background-color: orangered;
+  border-radius: 50%;
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: -42px;
+  font-size: 50px;
+  margin-left: 850px;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.best {
+  position: absolute;
+  right: 460px;
+  bottom: 100px;
+}
+
+.best img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.grace1 {
+  color: rgb(227, 224, 224);
+  margin-top: -205px;
+  margin-left: 1000px;
+  font-size: 17px;
+  letter-spacing: 2px;
+
+}
+
+.grace2 {
+  color: rgb(227, 224, 224);
+  margin-top: 20px;
+  margin-left: 1000px;
+  letter-spacing: 2px;
+  font-size: 17px;
+
+}
